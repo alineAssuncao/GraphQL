@@ -1,0 +1,2 @@
+# GraphQL
+https://gqlgen.com/
