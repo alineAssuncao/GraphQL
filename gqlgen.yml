@@ -131,10 +131,10 @@ autobind:
 models:
   Category:
     model:
-      - github.com/alineAssuncao/GraphQL/graph/model.Category
+      - github.com/devfullcycle/13-GraphQL/graph/model.Category
   Course:
     model:
-      - github.com/alineAssuncao/GraphQL/graph/model.Course
+      - github.com/devfullcycle/13-GraphQL/graph/model.Course
   ID:
     model:
       - github.com/99designs/gqlgen/graphql.ID

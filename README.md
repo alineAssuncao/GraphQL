@@ -27,6 +27,17 @@ query queryCategories{
   }
 }
 
+query queryCategoriesWithCourses{
+  categories {
+    id
+    name
+    courses {
+      id
+      name
+    }
+  }
+}
+
 query queryCourses{
   courses {
     id
@@ -34,3 +45,20 @@ query queryCourses{
     description
   }
 }
+
+query queryCoursesWithCategory{
+  courses {
+    id
+    name
+    description
+    category {
+      id
+      name
+      description
+    }
+  }
+}
+
+
+## rodando
+go run server.go
